@@ -26,7 +26,7 @@
               sm="6"
             >
               <v-text-field
-                label="First name*"
+                label="Username*"
                 required
               ></v-text-field>
             </v-col>
@@ -38,7 +38,7 @@
             >
               <v-text-field
                 hint="example of helper text only on focus"
-                label="Middle name"
+                label="Name*"
               ></v-text-field>
             </v-col>
 
@@ -49,8 +49,19 @@
             >
               <v-text-field
                 hint="example of persistent helper text"
-                label="Last name*"
+                label="Pronoums*"
                 persistent-hint
+                required
+              ></v-text-field>
+            </v-col>
+
+            <v-col
+              cols="12"
+              md="4"
+              sm="6"
+            >
+              <v-text-field
+                label="Bio"
                 required
               ></v-text-field>
             </v-col>
@@ -73,18 +84,6 @@
             >
               <v-text-field
                 label="Password*"
-                type="password"
-                required
-              ></v-text-field>
-            </v-col>
-
-            <v-col
-              cols="12"
-              md="4"
-              sm="6"
-            >
-              <v-text-field
-                label="Confirm Password*"
                 type="password"
                 required
               ></v-text-field>
